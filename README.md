@@ -2,7 +2,7 @@
 
 This repository holds data on petrochemical project and financing in Southeast Asia, from the London Stock Exchange Group (LSEG) Data & Analytics, formerly Refinitiv, as of 15 November 2024.
 
-The data will be analyzed and used for a scoping report produced for and published by the Center for Energy, Ecology, and Development. 
+The data will be analyzed and used for a scoping report produced for and published by the [Center for Energy, Ecology, and Development](https://ceedphilippines.com/). 
 
 ## Content
 
