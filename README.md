@@ -6,7 +6,7 @@ The data will be analyzed and used for a scoping report produced for and publish
 
 ## Working file
 
-Datasets downloaded from LSEG Refinitiv were *manually* sanitized and merged with previous datasets. This allows for the verification of data points and line items. 
+Datasets downloaded from LSEG Refinitiv were *manually* sanitized and merged with previous datasets. This allows more control over the verification and deduplication of data points and line items. 
 
 `wf_data.xlsx` is the main working file and contains the clean data. It contains the following sheets:
 
