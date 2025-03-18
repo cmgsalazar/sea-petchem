@@ -2,13 +2,13 @@
 
 This repository holds data on petrochemical project and financing in Southeast Asia, from the London Stock Exchange Group (LSEG) Data & Analytics, formerly Refinitiv, as of 15 November 2024.
 
-The data will be analyzed and used for a scoping report produced for and published by the [Center for Energy, Ecology, and Development](https://ceedphilippines.com/). 
+The data will be analyzed and used for a scoping report produced for and published by the [Center for Energy, Ecology, and Development (CEED)](https://ceedphilippines.com/). 
 
 ## Working file
 
 Datasets downloaded from LSEG Refinitiv were *manually* sanitized and merged with previous datasets. This allows for the verification of data points and line items. 
 
-`wf_data.csv` is the main working file and contains the clean data. It contains the following sheets:
+`wf_data.xlsx` is the main working file and contains the clean data. It contains the following sheets:
 
 | Sheet name | Content |
 | -------- | ------- |
@@ -43,3 +43,9 @@ These notebooks will export the following datasets, which can be used for second
 | pf_data | `pf_false_sol_country` | country with petrochemical projects tagged as "false solutions", number of "false solutions" projects, total number of projects, and percentage of "false solutions" projects |
 | pf_data | `pf_false_sol_developer` | project developer's parent company, country headquarter of project developer's parent company, project name, and country where project is located |
 | pf_data | `pf_false_sol_state-owned` | state-owned project developer (parent company), country of state-owned developer, project name, and country where project is located |
+
+Projects tagged as "false solutions" involved the following keywords: ammonia, hydrogen, and carbon capture.
+
+## Google Colab
+
+A Google Colab version of this repository is available [for viewing through this link](https://drive.google.com/drive/folders/10Oy2_3GAplEIis0Iq0v1YF9c3TD3Wy4r?usp=drive_link). (Only select CEED staff have editing access.)
